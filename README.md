@@ -6,8 +6,8 @@ This script is aimed to add a layer of protection , not complete it.
 
 - Adding new user accounts (Prevents unauthorized users from adding a new user account to the system)
 - Modification of SSH config files (Prevents unauthorized users from changing SSH security settings)
-- Modification of the /etc/sudoers file (Prevents unauthorized users from granitng themself sudo permissions)
-- Locks Shutdown & reboot (Prevents non-root users from shutting down or rebooting the system - Possible Sabotage )
+- Modification of the /etc/sudoers file (Prevents unauthorized users from granting themself sudo permissions)
+- Locks Shutdown & Reboot (Prevents non-root users from shutting down or rebooting the system - Possible Sabotage )
 
 # Good to know
 
@@ -16,12 +16,12 @@ Running this script will even prevent root from the above. Run the De-Lock scrip
 
 # Installing the Script
 
-git clone https://github.com/RoqueNight/Linux-System-Lockdown
-cd Linux-System-Lockdown
-chmod *.sh
-./Lockdown.sh
+- git clone https://github.com/RoqueNight/Linux-System-Lockdown
+- cd Linux-System-Lockdown
+- chmod *.sh
+- ./Lockdown.sh
 
 # Removing Security Lockdown Settings
 
-cd Linux-System-Lockdown
-./De-Lock.sh
+- cd Linux-System-Lockdown
+- ./De-Lock.sh
